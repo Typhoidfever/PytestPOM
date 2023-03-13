@@ -17,7 +17,7 @@ class SiteLocators:
     LOCATOR_ADDRESS_FIELD = (By.CSS_SELECTOR, "[id$=to]")
     LOCATOR_THEME_FIELD = (By.CSS_SELECTOR, "[id$=subject]")
     LOCATOR_EMAIL_TEXT_FIELD = (By.XPATH, "//div[@id='text']")
-    LOCATOR_SUBMIT_BUTTON = (By.CSS_SELECTOR, "[id$=submit]")
+    LOCATOR_SUBMIT_BUTTON = (By.CSS_SELECTOR, "[id='submit']")
     LOCATOR_FIRST_EMAIL_IN_LIST = (By.XPATH, "//div[@class='row no-gutters']")
 
 
