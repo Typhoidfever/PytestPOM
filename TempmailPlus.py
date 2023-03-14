@@ -1,10 +1,8 @@
 import time
 from random import choice
 from string import ascii_letters, digits
-
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
-
 from BaseApp import BasePage
 
 
